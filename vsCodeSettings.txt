@@ -1,0 +1,138 @@
+/*================================
+Open VS Code via terminal or cmd
+================================*/
+-->open terminal or cmd
+-->type--> code -->press enter (by doing this vs code will open )
+-->type--> code . -->press enter (by doing this vs code will open with following directory)
+
+//------for installing mingw setup in windows click the url below here----/
+-->https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
+
+/*================================
+ VS Code Settings
+================================*/
+----( NOT NECESSARY FOR BEGINNER )----/
+-->click on settings or press ctrl+,
+-->type on search bar -->settings.json
+-->find [JSON] Configure settings to be overwritten on [JSON] language -->click on->edit in settings.json
+-->from there you can customize it 
+-->my genaral settings below here
+
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 25,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontSize": 20,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "/bin/python3",
+    "code-runner.runInTerminal": true,
+    "editor.mouseWheelZoom": true
+}
+
+/*================================
+ VS Code Extention
+================================*/
+
+01.Auto Rename Tag
+02.Better Comments
+03.Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+04.Bracket Pair Coloraizer
+05.C/C++
+06.C/C++ Compile Run
+07.Code Runner
+08.Color Highlight
+09.Dummy Text Generator
+10.Kite AutoComplete AI Code: Python, Java, Go, PHP, C/C#/C++, Javascript, HTML/CSS, Typescript, React, Ruby, Scala, Kotlin, Bash, Vue, React
+11.Live Server
+12.Pylance
+13.Python
+14.vscode-icons
+
+
+/*================================
+ VS Code Themes
+================================*/
+01. Andromeda
+02. Dracula Official
+03. Night Owl
+04. Shades of Purple
+05. SynthWave '84
+06. Ayu (Theme)
+//-----personally I use default dark theme ---/
+
+
+/*================================
+ Some Extra Settings
+================================*/
+//-----No 1-------------/
+
+go to settings
+-->click on search bar
+-->type-->code runner
+-->you can find many option 
+-->mark on ->Code Runner:Run in Terminal
+			wheather to run code in intregrated terminal 
+			
+//-----No 2-----------/
+go to settings
+-->click on search bar
+-->type-->mouse wheel 
+-->mark on ->Mouse Wheel Zoom
+
+//-----No 3---------/
+for changing font size
+go to settings
+-->click on --> Text editor 
+-->click on -->Font 
+-->then you can fix the font size
+
+
+//---------------For saving time we need some snippets--------- ------/
+//-------For easily understand the snippets see this videos link is below here 
+-------->https://www.youtube.com/watch?v=uqBgvO5DAUc&ab_channel=ApnaCollege
+
+--> for generating snippets I use this website https://snippet-generator.app/
+--> Currently I use one snippets name as cp
+-->the code is below here 
+
+
+//--------Bismillahir Rahmanir Rahim----------/
+#include<bits/stdc++.h>
+#define c cout
+#define nl endl
+#define s scanf
+#define p printf
+#define pb push_back
+#define REP(i,a,b) for(int i=a;i<b;i++) //for loop
+#define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define pi 3.141592653589793
+#define showus(a) cout<<fixed<<setprecision(a)
+
+//------data types----/
+typedef long long int ll;
+typedef unsigned long long int llu;
+
+using namespace std;
+/**--using in=int;
+using ll=long long;--**/
+
+int main()
+{_
+    
+    
+    
+    return 0;
+}
+
+
+//--------code ends here------------/
+
+
+
+			 
+
+
+
