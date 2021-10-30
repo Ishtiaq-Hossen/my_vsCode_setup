@@ -93,42 +93,85 @@ go to settings
 //---------------For saving time we need some snippets--------- ------/
 //-------For easily understand the snippets see this videos link is below here 
 -------->https://www.youtube.com/watch?v=uqBgvO5DAUc&ab_channel=ApnaCollege
+----->this youtube channel is good though
 
---> for generating snippets I use this website https://snippet-generator.app/
---> Currently I use one snippets name as cp
--->the code is below here 
+--> for generating snippets I use this website -->       https://snippet-generator.app/
 
 
-//--------Bismillahir Rahmanir Rahim----------/
-#include<bits/stdc++.h>
-#define c cout
-#define nl endl
-#define s scanf
-#define p printf
-#define pb push_back
-#define REP(i,a,b) for(int i=a;i<b;i++) //for loop
-#define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
-#define pi 3.141592653589793
-#define showus(a) cout<<fixed<<setprecision(a)
 
-//------data types----/
-typedef long long int ll;
-typedef unsigned long long int llu;
 
-using namespace std;
-/**--using in=int;
-using ll=long long;--**/
+#############my all user snipets####################
 
-int main()
-{_
-    
-    
-    
-    return 0;
+---------------------------------------------------------------------------------------------------
+
+{
+	"Its a multiple line comment snippet for c++": {
+		"prefix": "cpcm2",
+		"body": [
+		  "/**--------------------",
+		  "[",
+		  "",
+		  "]",
+		  "-----------------------**/"
+		],
+		"description": "Its a multiple line comment snippet for c++"
+	  }
+}
+
+---------------------------------------------------------------------------------------------------
+
+{
+	"Its a commnet snipet for c++": {
+		"prefix": "cpcm",
+		"body": [
+		  "//-------------[ ]-------------------/"
+		],
+		"description": "Its a commnet snipet for c++"
+	  }
+}
+
+----------------------------------------------------------------------------------------------------
+
+
+{
+	"It's the basic structure for my competitive programming": {
+		"prefix": "cp",
+		"body": [
+		  "//--------Bismillahir Rahmanir Rahim----------/",
+		  "#include<bits/stdc++.h>",
+		  "#define c cout",
+		  "#define nl endl",
+		  "#define s scanf",
+		  "#define p printf",
+		  "#define pb push_back",
+		  "#define REP(i,a,b) for(int i=a;i<b;i++) //for loop",
+		  "#define _ ios::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);",
+		  "#define pi 3.141592653589793",
+		  "#define position(a) cout<<fixed<<setprecision(a)",
+		  "",
+		  "//------data types----/",
+		  "typedef long long int ll;",
+		  "typedef unsigned long long int llu;",
+		  "",
+		  "using namespace std;",
+		  "/**--using in=int;",
+		  "using ll=long long;--**/",
+		  "",
+		  "int main()",
+		  "{_",
+		  "    ",
+		  "    ",
+		  "    ",
+		  "    return 0;",
+		  "}"
+		],
+		"description": "It's the basic structure for my competitive programming"
+	  }
 }
 
 
-//--------code ends here------------/
+
+------------------------------------------------------------------------------------------------------
 
 
 
