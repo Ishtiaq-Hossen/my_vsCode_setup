@@ -1,0 +1,12 @@
+creating & opening a file-> vim file.txt
+insert something--> press shift+i
+go to command -> press esc
+exit with saving -> :q
+exit without saving-> :q!
+saving a file-> :w
+saving a file and quite-> :wq
+saving and naming a file & quite-> :wq name.txt --> required if at first you press onlt "vim" instead of "vim file.txt"
+saving and naming a file: -> :w name.txt 
+finding a word --> /word
+how to find and replace text in vim -> :%s/yourtext/replacetext/g (+c)
+
